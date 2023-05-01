@@ -1,6 +1,5 @@
 import { GoogleMap, InfoWindow, Marker } from "@react-google-maps/api";
-import React,{  useState } from "react";
-
+import {  useState } from "react";
 
 
 const Map = (props) => {
@@ -15,7 +14,6 @@ const Map = (props) => {
     lat: 30.3165,
     lng: 78.0322,
   };
-
 
   const markers = [
     {
@@ -60,9 +58,10 @@ const Map = (props) => {
     },
   ];
 
- 
+  
 
-  return (
+
+   return (
     isLoaded && (
       <>
         <GoogleMap
@@ -98,6 +97,8 @@ const Map = (props) => {
               </div>
             </InfoWindow>
           )}
+
+          
         </GoogleMap>
       </>
     )

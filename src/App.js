@@ -1,17 +1,20 @@
-import { useJsApiLoader } from "@react-google-maps/api"
+import { useJsApiLoader } from "@react-google-maps/api";
 import Map from "./Components/Map";
-const App =() => {
+import Home from "./Components/Home";
+
+
+const  App =() => {
   const { isLoaded } = useJsApiLoader({
-    
-    googleMapsApiKey: process.env.REACT_APP_PUBLIC_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey:process.env.REACT_APP_PUBLIC_GOOGLE_MAPS_API_KEY,
   });
   if (!isLoaded) return <h1>Loading!!!...</h1>;
+
   return (
     <div className="App">
-  
-      <Map isLoaded={isLoaded} />
+      <h1><Home/></h1>
+      <Map isLoaded={isLoaded}/>
     </div>
   );
 }
 
-export default App;  
+export default App;
