@@ -1,18 +1,12 @@
-import { useJsApiLoader } from "@react-google-maps/api";
-import Map from "./Components/Map";
-import Home from "./Components/Home";
+import React from "react";
+
+import Navbar from './Components/Navbar'
 
 
 const  App =() => {
-  const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey:process.env.REACT_APP_PUBLIC_GOOGLE_MAPS_API_KEY,
-  });
-  if (!isLoaded) return <h1>Loading!!!...</h1>;
-
-  return (
-    <div className="App">
-      <h1><Home/></h1>
-      <Map isLoaded={isLoaded}/>
+  return(
+ <div>
+ <Navbar/>
     </div>
   );
 }

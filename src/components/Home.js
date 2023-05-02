@@ -1,7 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Home =() =>{
+  let navigate=useNavigate()
   const [greeting, setGreeting] = useState('');
 
   useEffect(() => {
@@ -20,11 +22,11 @@ const Home =() =>{
     setGreeting(newGreeting);
   }, []);
 
-  return( <div><h1>{greeting}, lets explore cats!</h1>
+  return( <div><h1>{greeting}, lets adopt a cat!</h1>
 
-  <h4>Lets start by learning more about our furry friends.</h4>
+  <h4>Click below and figure out what traits you want in a cat.</h4>
   
-  <button>Cat facts</button></div>)
+  <button onClick={()=>{navigate('/learncats')}}>Begin exploring</button></div>)
   
 }
 
