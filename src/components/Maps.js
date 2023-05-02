@@ -25,7 +25,7 @@ const  Maps =() => {
     const markers = [
       {
         name: "Los Angeles, California",
-        status: "parked",
+        status: "has cats",
         location: {
           lat: 38.915161,
           lng: -77.430992,
@@ -33,7 +33,7 @@ const  Maps =() => {
       },
       {
         name: "New York, New York",
-        status: "inair",
+        status: "no cats",
         location: {
           lat: 38.897675,
           lng: -77.036530,
@@ -41,7 +41,7 @@ const  Maps =() => {
       },
       {
         name: "Denver, Colorado",
-        status: "incident",
+        status: "cats here",
         location: {
           lat: 31.765900,
           lng: -106.461098,
@@ -49,7 +49,7 @@ const  Maps =() => {
       },
       {
         name: "Chicago, Illinois",
-        status: "offline",
+        status: "my cats",
         location: {
           lat: 38.937496,
           lng: -77.088806,
@@ -57,7 +57,7 @@ const  Maps =() => {
       },
       {
         name: "location-5",
-        status: "mission",
+        status: "your cats",
         location: {
           lat: 38.939360,
           lng: -77.091750,
