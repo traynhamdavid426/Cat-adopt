@@ -13,13 +13,12 @@ import { useNavigate } from 'react-router-dom';
         
       
 
-<div>
+<div className='tc f4'>
     
     <button onClick={()=>{navigate('/male')}}>Males</button>
-    <button onClick={()=>{navigate('/female')}}>Females</button>
-    <button onClick={()=>{navigate('/learncats')}}>All categories</button>
-    <button onClick={()=>{navigate('/catfacts')}}>Cat facts</button>
-    <button onClick={()=>{navigate('/catagedisplay')}}>Cat age</button>
+    <button className='ml2' onClick={()=>{navigate('/female')}}>Females</button>
+    <button className='ml2' onClick={()=>{navigate('/learncats')}}>All categories</button>
+    
 
 </div>
 

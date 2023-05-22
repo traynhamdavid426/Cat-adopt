@@ -2,6 +2,7 @@ import React from "react";
 import Axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import '../Styles/Facts.css'
 
 
 
@@ -20,15 +21,15 @@ const Catfacts = () => {
   }, []);
 
   return (
-    <div>
+    <div className="tc purple">
       <div>
-        <button onClick={fetchCatFact}>Generate Cat Fact</button>
-        <p>{fact}</p>
+        <button className="f4" onClick={fetchCatFact}>Generate Cat Fact</button>
+        <h1 className="f3 measure bg-red facts  ">{fact}</h1>
       </div>
-      <div>
-        <button onClick={() => { navigate('/learncats') }}> All categories </button>
-        <button onClick={()=>{navigate('/catagedisplay')}}> Cat ages</button>
-        <button onClick={()=>{navigate('/catgenders')}}>Cat genders</button>
+      <div className="">
+        <button className="f4 " onClick={() => { navigate('/learncats') }}> All categories </button>
+        <button className="f4 ml2" onClick={()=>{navigate('/catagedisplay')}}> Cat ages</button>
+        <button className="f4 ml2" onClick={()=>{navigate('/catgenders')}}>Cat genders</button>
       </div>
     </div>
   );

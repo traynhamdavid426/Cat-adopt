@@ -22,11 +22,11 @@ const Home =() =>{
     setGreeting(newGreeting);
   }, []);
 
-  return( <div><h1>{greeting}, lets adopt a cat!</h1>
+  return( <div className='tc  purple'><h1 className='f2'>{greeting}, lets adopt a cat!</h1>
 
-  <h4>Click below and figure out what traits you want in a cat.</h4>
+  <h4 className='f3'>Click below and figure out what traits you want in a cat.</h4>
   
-  <button onClick={()=>{navigate('/learncats')}}>Begin exploring</button></div>)
+  <button className='f4' onClick={()=>{navigate('/learncats')}}>Begin exploring</button></div>)
   
 }
 

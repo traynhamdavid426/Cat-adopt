@@ -14,17 +14,19 @@ import Junior from '../SubComponents/Age/Junior'
 import Kitten from '../SubComponents/Age/Kitten'
 import Female from '../SubComponents/Gender/Female'
 import Male from '../SubComponents/Gender/Male'
+import '../Styles/Nav.css'
 
 
 
-const Navbar =() => {return(<div>
+const Navbar =() => {return(<div className=" navbar tc">
 <BrowserRouter>
 <header>
-    <nav>
-<h2>Pages</h2>
-<Link to='/'>Home</Link>
+<h2 className="white">Navigate</h2>
+    <nav className="links">
+    <div className="text">
+<Link  to='/'>Home</Link>
 <Link to='learncats'>Ideal cat</Link>
-<Link to='maps'>Find cats</Link>
+<Link to='maps'>Find cats</Link></div>
     </nav>
     <div>
     <Routes>

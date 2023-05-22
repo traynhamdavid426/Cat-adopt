@@ -1,5 +1,6 @@
 import { GoogleMap, InfoWindow, Marker, useJsApiLoader } from "@react-google-maps/api";
 import React,{ useState } from "react";
+import '../SubComponents/Gender/Gender.css'
 
 
 
@@ -13,8 +14,9 @@ const  Maps =() => {
     const [selectedMarker, setSelectedMarker] = useState("");
   
     const containerStyle = {
-      width: "90vw",
-      height: "90vh",
+      width: "70vw",
+      height: "70vh",
+      
       
     };
     const center = {
@@ -74,6 +76,7 @@ const  Maps =() => {
     
     return (
       isLoaded && (
+        <div className="map">
         <div>
           <GoogleMap
             mapContainerStyle={containerStyle}
@@ -111,7 +114,7 @@ const  Maps =() => {
             )}
   
           </GoogleMap>
-        </div>
+        </div></div>
       )
     );
   };

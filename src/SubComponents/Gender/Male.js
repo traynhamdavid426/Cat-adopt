@@ -1,19 +1,30 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "../Gender/Gender.css";
 
-const Male=() => {
-    let navigate= useNavigate();
-    return(<div>
-    Temperament: males
-    Special care: Egestas integer eget aliquet nibh praesent tristique magna sit amet. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Dignissim suspendisse in est ante in nibh mauris. Suspendisse sed nisi lacus sed viverra. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. Morbi tristique senectus et netus et malesuada fames ac turpis. Est lorem ipsum dolor sit amet. Venenatis tellus in metus vulputate eu scelerisque felis. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Donec pretium vulputate sapien nec sagittis aliquam. Elementum tempus egestas sed sed. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. A iaculis at erat pellentesque adipiscing. Sit amet dictum sit amet. Odio euismod lacinia at quis risus sed vulputate odio ut. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar.
-    Pros: Egestas integer eget aliquet nibh praesent tristique magna sit amet. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Dignissim suspendisse in est ante in nibh mauris. Suspendisse sed nisi lacus sed viverra. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. Morbi tristique senectus et netus et malesuada fames ac turpis. Est lorem ipsum dolor sit amet. Venenatis tellus in metus vulputate eu scelerisque felis. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Donec pretium vulputate sapien nec sagittis aliquam. Elementum tempus egestas sed sed. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. A iaculis at erat pellentesque adipiscing. Sit amet dictum sit amet. Odio euismod lacinia at quis risus sed vulputate odio ut. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar.
-    cons: Egestas integer eget aliquet nibh praesent tristique magna sit amet. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Dignissim suspendisse in est ante in nibh mauris. Suspendisse sed nisi lacus sed viverra. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. Morbi tristique senectus et netus et malesuada fames ac turpis. Est lorem ipsum dolor sit amet. Venenatis tellus in metus vulputate eu scelerisque felis. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Donec pretium vulputate sapien nec sagittis aliquam. Elementum tempus egestas sed sed. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. A iaculis at erat pellentesque adipiscing. Sit amet dictum sit amet. Odio euismod lacinia at quis risus sed vulputate odio ut. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar.
+const Male = () => {
+    let navigate = useNavigate();
+    return (
+      <div className="container ">
+        <div className="div-container">
+          <div className="button-box ">
+          <button className="button" onClick={() => { navigate('/learncats') }}>All categories</button>
+          <button className="button ml2" onClick={() => { navigate('/female') }}>Females</button>
+         </div> 
 
-<div>
-<button onClick={()=>{navigate('/learncats')}}>All catergories</button>
-<button onClick={()=>{navigate('/female')}}>Females</button>
-</div>
-
-</div>)}
-
-export default Male;
+          <div className="div-container  f3 fw8 purple">Temperament: Males Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+          <div className="div-container f3 fw8 purple">
+            Special care: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div className="div-container f3 fw8 purple">
+            Pros: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div className="div-container f3 fw8 purple">
+            Cons: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+      </div>
+    );
+  };
+  
+  export default Male;

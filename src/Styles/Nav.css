@@ -1,0 +1,50 @@
+.navbar { 
+    top: 0;
+    position: sticky;
+    max-width: 100%;
+    max-height: 100px;
+    background: linear-gradient(to right,aqua,black,rgb(115, 111, 111), rgb(66, 65, 65),  black);
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+  }
+
+  
+  
+  .links {
+    min-width: 40%;
+    max-height: 70%;
+    margin-left: auto;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    align-items: center;
+    display: column;
+    color: white;
+
+    
+  }
+
+  .text{ 
+    font-weight: bold;
+    margin-bottom: 30px;
+    max-width: fit-content;
+  margin-left: auto;
+margin-right: 67px;}
+
+  .links a {
+    font-weight: 500;
+              }
+  
+  .navbar a {
+    
+    margin-bottom: 40px;
+    font-size: large;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+  }
+    
+    
+
+
+  
