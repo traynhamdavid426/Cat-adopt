@@ -21,7 +21,6 @@ import '../Styles/Nav.css'
 const Navbar =() => {return(<div className=" navbar tc">
 <BrowserRouter>
 <header>
-<h2 className="white">Navigate</h2>
     <nav className="links">
     <div className="text">
 <Link  to='/'>Home</Link>
@@ -30,7 +29,8 @@ const Navbar =() => {return(<div className=" navbar tc">
     </nav>
     <div>
     <Routes>
-        <Route path='/' element ={<Home/>}/>
+        <Route path='/*' element ={<Home/>}/>
+        <Route index element ={<Home/>}/>
         <Route path='learncats' element ={<Learncats/>}/>
         <Route path='catfacts' element ={<Catfacts/>}/>
         <Route path='catagedisplay' element ={<Catsagedisplay/>}/>

@@ -2,15 +2,18 @@
     top: 0;
     position: sticky;
     max-width: 100%;
-    max-height: 100px;
-    background: linear-gradient(to right,aqua,black,rgb(115, 111, 111), rgb(66, 65, 65),  black);
+    max-height: 80px;
+    background: linear-gradient(295deg,rgb(47, 144, 45)  ,black  ,rgb(21, 16, 42),black ,rgb(30, 1, 30),black, rgb(29, 26, 26) ,rgb(22, 1, 23),rgb(31, 39, 50) ,rgb(107, 200, 107) ,  black  );
     border-bottom-right-radius: 5%;
     border-bottom-left-radius: 5%;
+  padding-bottom: 10px;
+  text-align: center;
   }
 
   
   
   .links {
+    
     min-width: 40%;
     max-height: 70%;
     margin-left: auto;
@@ -18,17 +21,18 @@
     padding-top: 10px;
     align-items: center;
     display: column;
-    color: white;
+    color: red;
 
     
   }
 
   .text{ 
-    font-weight: bold;
-    margin-bottom: 30px;
+    font-weight: bolder;
+    margin-top: 15px; 
+    margin-bottom: 0;
     max-width: fit-content;
-  margin-left: auto;
-margin-right: 67px;}
+margin-left: auto;
+margin-right: auto;}
 
   .links a {
     font-weight: 500;
@@ -36,12 +40,12 @@ margin-right: 67px;}
   
   .navbar a {
     
-    margin-bottom: 40px;
-    font-size: large;
-    font-weight: 800;
-    color: white;
+    margin-bottom: auto;
+    font-size: x-large;
+    font-weight: 700;
+    color:white;
     text-decoration: none;
-    margin: 5px;
+    margin: 10px;
   }
     
     
