@@ -1,0 +1,27 @@
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contents {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .buttons {
+    padding: 10px 20px;
+   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  

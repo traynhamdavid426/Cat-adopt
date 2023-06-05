@@ -1,2 +1,34 @@
-.facts{margin-left: auto;
-margin-right: auto;}
+.container {
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .generate-button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+  
+  .fact-text {
+    font-size: 1.5rem;
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .category-button {
+    font-size: 1.2rem;
+    margin: 0 5px;
+    padding: 10px 20px;
+  }
+  
+  
+  
+  

@@ -64,8 +64,8 @@ const Catsagedisplay = () => {
 
       <div className="buttons-box">
         <button className='f4 mb5 mt3' onClick={() => navigate('/learncats')}>All categories</button>
-        <button className='f4 ml2' onClick={() => navigate('/catfacts')}>Cat facts</button>
-        <button className='f4 ml2' onClick={() => navigate('/catgenders')}>Cat genders</button>
+        <button className='f4 ml3 ' onClick={() => navigate('/catfacts')}>Cat facts</button>
+        <button className='f4  ml3' onClick={() => navigate('/catgenders')}>Cat genders</button>
       </div>
     </div>
   );

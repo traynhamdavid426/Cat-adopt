@@ -1,0 +1,34 @@
+.containers { background-color: blue;
+    border-radius: 15px;
+    border-style: groove;
+    border-width: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    margin-top: 116px;
+  }
+  
+  .button-containers {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .buttoncen {margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;}
+  
+  .button-containers button {
+    margin: 15px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  

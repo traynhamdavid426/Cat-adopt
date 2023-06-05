@@ -1,9 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import '../Styles/Home.css'; 
 
-const Home =() =>{
-  let navigate=useNavigate()
+const Home = () => {
+  let navigate = useNavigate();
   const [greeting, setGreeting] = useState('');
 
   useEffect(() => {
@@ -22,12 +23,16 @@ const Home =() =>{
     setGreeting(newGreeting);
   }, []);
 
-  return( <div className='tc  purple'><h1 className='f2'>{greeting}, lets adopt a cat!</h1>
-
-  <h4 className='f3'>Click below and figure out what traits you want in a cat.</h4>
-  
-  <button className='f4' onClick={()=>{navigate('/learncats')}}>Begin exploring</button></div>)
-  
-}
+  return (
+    <div className="container">
+      <h1 className="title">{greeting}, let's adopt a cat!</h1>
+      <h4 className="subtitle">Click below and figure out what traits you want in a cat.</h4>
+      <button className="button" onClick={() => navigate('/learncats')}>
+        Begin exploring
+      </button>
+    </div>
+  );
+};
 
 export default Home;
+

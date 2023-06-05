@@ -1,28 +1,19 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
- 
+import '../Styles/Catgenders.css'
 
- 
+const Catgenders = () => {
+  const navigate = useNavigate();
 
- 
- const Catgenders=() => {
-    let navigate= useNavigate();
-    return (
-    
-    
-        
-      
-
-<div className='tc f4'>
-    
-    <button onClick={()=>{navigate('/male')}}>Males</button>
-    <button className='ml2' onClick={()=>{navigate('/female')}}>Females</button>
-    <button className='ml2' onClick={()=>{navigate('/learncats')}}>All categories</button>
-    
-
-</div>
-
-
- );
+  return (
+    <div className='containerer'>
+      <div className='content'>
+        <button onClick={() => { navigate('/male') }}>Males</button>
+        <button onClick={() => { navigate('/female') }}>Females</button>
+        <button onClick={() => { navigate('/learncats') }}>All categories</button>
+      </div>
+    </div>
+  );
 }
+
 export default Catgenders;
