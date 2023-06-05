@@ -91,7 +91,7 @@ const Maps = () => {
                     <h2>-{selectedMarker.phoneNumber}</h2>
                     <button
                       style={{
-                        backgroundColor: "blue",
+                        backgroundColor: "green",
                         color: "white",
                         padding: "10px 20px",
                         border: "none",
