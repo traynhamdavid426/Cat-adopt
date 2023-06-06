@@ -1,4 +1,10 @@
-.containers { background-color: blue;
+.containers { 
+  border: transparent;
+  background: 
+  linear-gradient(white,white), 
+  linear-gradient( rgb(10, 130, 66) , rgb(3, 3, 47),rgb(5, 44, 5), rgb(56, 4, 56),rgb(15, 63, 15)); 
+background-clip: padding-box, border-box;
+background-origin: padding-box, border-box;
     border-radius: 15px;
     border-style: groove;
     border-width: 18px;

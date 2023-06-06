@@ -25,8 +25,8 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h1 className="title">{greeting}, let's adopt a cat!</h1>
-      <h4 className="subtitle">Click below and figure out what traits you want in a cat.</h4>
+      <h1 className="title fw7 f2">{greeting}, let's adopt a cat!</h1>
+      <h4 className="subtitle f3">Click below and figure out what traits you want in a cat.</h4>
       <button className="button" onClick={() => navigate('/learncats')}>
         Begin exploring
       </button>

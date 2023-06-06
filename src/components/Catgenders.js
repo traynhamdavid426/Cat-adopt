@@ -9,8 +9,8 @@ const Catgenders = () => {
     <div className='containerer'>
       <div className='content'>
         <button onClick={() => { navigate('/male') }}>Males</button>
-        <button onClick={() => { navigate('/female') }}>Females</button>
-        <button onClick={() => { navigate('/learncats') }}>All categories</button>
+        <button className='ml3' onClick={() => { navigate('/female') }}>Females</button>
+        <button className='ml3' onClick={() => { navigate('/learncats') }}>All categories</button>
       </div>
     </div>
   );
