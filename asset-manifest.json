@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/catadopt/static/css/main.d774db4e.css",
-    "main.js": "/catadopt/static/js/main.7379662b.js",
+    "main.css": "/catadopt/static/css/main.b750dff2.css",
+    "main.js": "/catadopt/static/js/main.6316b307.js",
     "static/js/787.0ff53190.chunk.js": "/catadopt/static/js/787.0ff53190.chunk.js",
+    "static/media/kitty.jpg": "/catadopt/static/media/kitty.a461f081a94c7bc729b7.jpg",
+    "static/media/kitten2.jpg": "/catadopt/static/media/kitten2.6d04c020c773ba4fefcd.jpg",
+    "static/media/mature.jpg": "/catadopt/static/media/mature.047d2ea462b80188e587.jpg",
+    "static/media/junior2.jpg": "/catadopt/static/media/junior2.76b166f2c746fd7f0f81.jpg",
+    "static/media/senior.jpg": "/catadopt/static/media/senior.b85884776245d1b5c552.jpg",
+    "static/media/geriatric.jpg": "/catadopt/static/media/geriatric.13bf20a614744c459979.jpg",
+    "static/media/prime2.jpg": "/catadopt/static/media/prime2.f6ed5f568fdb46392c93.jpg",
     "index.html": "/catadopt/index.html",
-    "main.d774db4e.css.map": "/catadopt/static/css/main.d774db4e.css.map",
-    "main.7379662b.js.map": "/catadopt/static/js/main.7379662b.js.map",
+    "main.b750dff2.css.map": "/catadopt/static/css/main.b750dff2.css.map",
+    "main.6316b307.js.map": "/catadopt/static/js/main.6316b307.js.map",
     "787.0ff53190.chunk.js.map": "/catadopt/static/js/787.0ff53190.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d774db4e.css",
-    "static/js/main.7379662b.js"
+    "static/css/main.b750dff2.css",
+    "static/js/main.6316b307.js"
   ]
 }
