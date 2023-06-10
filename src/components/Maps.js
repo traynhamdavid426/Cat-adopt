@@ -30,7 +30,7 @@ const Maps = () => {
           lat: 38.917747,
           lng: -77.028884,
         },
-        website: <a href="https://www.warl.org/" rel="noreferrer" target="_blank">visit website</a>,
+        website: "https://www.warl.org/" ,
         phoneNumber: "(202) 726-2556",
       },
       {
@@ -40,7 +40,7 @@ const Maps = () => {
           lat: 38.907772,
           lng: -76.973270,
         },
-        website: <a href="https://www.humanerescuealliance.org/" rel="noreferrer" target="_blank"> 'https://www.humanerescuealliance.org'</a>,
+        website: "https://www.humanerescuealliance.org/" ,
         phoneNumber: "(202) 727-1000",
       },
       {
@@ -50,7 +50,7 @@ const Maps = () => {
           lat: 38.914200,
           lng: -77.029900,
         },
-        website: <a href="https://www.citydogsrescuedc.org/" rel="noreferrer" target="_blank">visit website</a>,
+        website: "https://www.citydogsrescuedc.org/" ,
         phoneNumber: "(202) 567-7364",
       },
       
@@ -87,7 +87,9 @@ const Maps = () => {
                   <div>
                     <h1>{selectedMarker.name}</h1>
   
-                    <h2> visit website{selectedMarker.website}</h2>
+                    <h2><a href={selectedMarker.website} rel="noreferrer" target="_blank">
+                     {selectedMarker.website}
+      </a></h2>
                     <h2>{selectedMarker.phoneNumber}</h2>
                     <button
                       style={{
