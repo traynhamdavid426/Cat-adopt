@@ -86,13 +86,13 @@ const Maps = () => {
                 >
                   <div>
                     <h1>{selectedMarker.name}</h1>
-                    <h1>{selectedMarker.status}</h1>
+  
                     <h2>{selectedMarker.website}</h2>
                     <h2>{selectedMarker.phoneNumber}</h2>
                     <button
                       style={{
                         backgroundColor: "green",
-                        color: "white",
+                      
                         padding: "10px 20px",
                         border: "none",
                         borderRadius: "5px",
