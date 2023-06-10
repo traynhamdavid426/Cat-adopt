@@ -8,7 +8,7 @@ const Mature =() => {
     <h1 className="tc">Mature</h1>
     <h3 className="tc navy f3">Temperament:</h3>
         <p>
-           Diet: Suspendisse in est ante in nibh. A condimentum
+           Suspendisse in est ante in nibh. A condimentum
           vitae sapien pellentesque habitant morbi tristique senectus. Cras
           pulvinar mattis nunc sed blandit. Augue eget arcu dictum varius.
           Faucibus scelerisque eleifend donec pretium vulputate sapien nec
@@ -25,7 +25,7 @@ const Mature =() => {
 
         <h3 className="tc f3 navy">Special care:</h3>
         <p>
-          Special care: Suspendisse in est ante in nibh. A condimentum vitae
+          Suspendisse in est ante in nibh. A condimentum vitae
           sapien pellentesque habitant morbi tristique senectus. Cras pulvinar
           mattis nunc sed blandit. Augue eget arcu dictum varius. Faucibus
           scelerisque eleifend donec pretium vulputate sapien nec sagittis.
@@ -40,7 +40,7 @@ const Mature =() => {
         </p>
        <h3 className="tc f3 navy">Diet:</h3>
         <p>
-          Diet: Egestas integer eget aliquet nibh praesent tristique magna sit
+           Egestas integer eget aliquet nibh praesent tristique magna sit
           amet. Ullamcorper a lacus vestibulum sed arcu non odio euismod.
           Dignissim suspendisse in est ante in nibh mauris. Suspendisse sed nisi
           lacus sed viverra. Nulla facilisi etiam dignissim diam quis enim
@@ -57,7 +57,7 @@ const Mature =() => {
         </p>
       <h3 className="tc navy f3">Pros:</h3>
         <p>
-          Pros: Egestas integer eget aliquet nibh praesent tristique magna sit
+          Egestas integer eget aliquet nibh praesent tristique magna sit
           amet. Ullamcorper a lacus vestibulum sed arcu non odio euismod.
           Dignissim suspendisse in est ante in nibh mauris. Suspendisse sed nisi
           lacus sed viverra. Nulla facilisi etiam dignissim diam quis enim
