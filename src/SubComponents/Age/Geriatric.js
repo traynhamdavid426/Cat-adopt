@@ -9,7 +9,7 @@ const Geriatric =() => {
       <h1 className="tc">Geriatric</h1>
 
        <h3 className="tc navy f3">Temperament:</h3>
-        <p>
+        <p className="tc">
            Diet: Suspendisse in est ante in nibh. A condimentum
           vitae sapien pellentesque habitant morbi tristique senectus. Cras
           pulvinar mattis nunc sed blandit. Augue eget arcu dictum varius.

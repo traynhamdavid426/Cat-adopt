@@ -54,8 +54,8 @@ const Catsagedisplay = () => {
           <div className="">
           <div key ={i} className='cat-container '>
           <div className='cat-details'>
-        <div className=' navy f2 stage'> {cat.stage}</div>
-        <div className='age fw8  f3 navy'> {cat.age}</div>
+        <div className=' white f2 stage'> {cat.stage}</div>
+        <div className='age fw8  f3 white'> {cat.age}</div>
         <div className=' navy f3'> {cat.image}</div>
         <div className='link f3'> {cat.lnk}</div>
         </div></div></div>
