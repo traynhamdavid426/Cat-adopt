@@ -88,7 +88,7 @@ const Maps = () => {
                     <h1>{selectedMarker.name}</h1>
   
                     <h2><a href={selectedMarker.website} rel="noreferrer" target="_blank">
-                     {selectedMarker.website}
+                     Visit Site
       </a></h2>
                     <h2>{selectedMarker.phoneNumber}</h2>
                     <button
