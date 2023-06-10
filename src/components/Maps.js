@@ -30,7 +30,7 @@ const Maps = () => {
           lat: 38.917747,
           lng: -77.028884,
         },
-        website: "https://www.warl.org/",
+        website: <a href="https://www.warl.org/" rel="noreferrer" target="_blank">https://www.warl.org</a>,
         phoneNumber: "(202) 726-2556",
       },
       {
@@ -40,7 +40,7 @@ const Maps = () => {
           lat: 38.907772,
           lng: -76.973270,
         },
-        website: "https://www.humanerescuealliance.org/",
+        website: <a href="https://www.humanerescuealliance.org/" rel="noreferrer" target="_blank"> https://www.humanerescuealliance.org</a>,
         phoneNumber: "(202) 727-1000",
       },
       {
@@ -50,7 +50,7 @@ const Maps = () => {
           lat: 38.914200,
           lng: -77.029900,
         },
-        website: "https://www.citydogsrescuedc.org/",
+        website: <a href="https://www.citydogsrescuedc.org/" rel="noreferrer" target="_blank">https://www.citydogsrescuedc.org</a>,
         phoneNumber: "(202) 567-7364",
       },
       
@@ -85,10 +85,10 @@ const Maps = () => {
                   }}
                 >
                   <div>
-                    <h1>location -{selectedMarker.name}</h1>
-                    <h1>status - {selectedMarker.status}</h1>
-                    <h2>-{selectedMarker.website}</h2>
-                    <h2>-{selectedMarker.phoneNumber}</h2>
+                    <h1>{selectedMarker.name}</h1>
+                    <h1>{selectedMarker.status}</h1>
+                    <h2>{selectedMarker.website}</h2>
+                    <h2>{selectedMarker.phoneNumber}</h2>
                     <button
                       style={{
                         backgroundColor: "green",
